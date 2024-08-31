@@ -1,0 +1,25 @@
+package task20;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class guvi {
+	
+	public static void main(String args[]) {
+	
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.guvi.in/");
+		
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//a[text()='Sign up']")).click();
+		
+		
+		
+		
+	}
+
+}
